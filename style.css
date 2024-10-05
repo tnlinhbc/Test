@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+@media only screen and (min-width: 320px) {
+    body {
+        background-image: url(./img/TankerNejla_we7djr.jpg);
+        background-size: cover;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 2vw;
+        color: white;
+    }
+
+    .fa-solid {
+        color: white;
+        font-size: large;
+        margin-top: 1vw;
+    }
+
+
+
+    .mauDangKy {
+        width: 90vw;
+        margin: 0 auto;
+        text-align: center;
+        background-color: rgba(2, 2, 2, 0.195);
+        backdrop-filter: blur(5px);
+        box-shadow: 10px 10px 30px black;
+        border-radius: 50px;
+    }
+
+    .hoten,
+    .cccd,
+    .tel,
+    .diaChi,
+    .tenDangNhap,
+    .matKhau,
+    .email,
+    .nhapLaiMatKhau {
+        border: 2px solid white;
+        width: 60vw;
+        margin: 0 auto;
+        text-align: left;
+        background-color: transparent;
+        border-radius: 50px;
+        margin-bottom: 1vh;
+    }
+
+    .hoten input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .hoten input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .cccd input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .cccd input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .tel input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .tel input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .email input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .email input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .tenDangNhap input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .tenDangNhap input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .matKhau input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .matKhau input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .nhapLaiMatKhau input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .nhapLaiMatKhau input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    .diaChi input {
+        border-radius: 50px;
+        width: 90%;
+        padding: 1vw;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .diaChi input::placeholder {
+        font-weight: bold;
+        color: white;
+        font-size: large;
+        padding-left: 1vw;
+    }
+
+    h2 {
+        padding-top: 2vh;
+        color: white;
+    }
+
+    .button input {
+        font-weight: bold;
+        padding: 0.5vw 1.5vw;
+        font-size: large;
+        border-radius: 50px;
+        border: 0;
+        margin-bottom: 2vw;
+        background-color: white;
+        color: black;
+    }
+
+    .button input:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .ngayThangNamSinh {
+        margin-bottom: 1vh;
+    }
+
+    .ngayThangNamSinh select {
+        font-weight: bold;
+        font-size: large;
+        border: 2px solid white;
+        padding: 0.8vw;
+        border-radius: 50px;
+        background-color: transparent;
+        color: white;
+    }
+
+    .ngayThangNamSinh select option {
+        color: black;
+        font-weight: bold;
+    }
+
+    .ngayThangNamSinh input {
+        padding: 1vw;
+        border-radius: 50px;
+        border: 2px solid white;
+        background-color: transparent;
+        width: 9VW;
+    }
+
+    .ngayThangNamSinh ::placeholder {
+        color: white;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #hienThongTin {
+        width: 90vw;
+        margin: 0 auto;
+        background-color: rgba(2, 2, 2, 0.195);
+        backdrop-filter: blur(5px);
+        box-shadow: 10px 10px 30px black;
+        border-radius: 50px;
+    }
+
+    #hienThongTin p {
+        margin-left: 5VW;
+        padding-bottom: 0.3VW;
+        font-size: large;
+        color: white;
+    }
+
+    #hienThongTin P:last-child {
+        padding-bottom: 1VW;
+    }
+
+    #hienThongTin H1 {
+        padding-top: 1VW;
+    }
+
+    #hienThongTin span {
+        color: red;
+        font-weight: bold;
+    }
+
+    input {
+        font-size: large;
+        font-weight: bold;
+        color: white;
+    }
+}

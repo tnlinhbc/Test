@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mẫu đăng ký</title>
+    <link rel="shortcut icon" href="./img/2024-09-30_20-40-13.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- js -->
+    <script src="main.js"></script>
+    <!-- js -->
+    <h1>ĐĂNG KÝ</h1>
+    <div class="mauDangKy">
+
+        <form name="frmDangKy">
+            <h2>THÔNG TIN CÁ NHÂN</h2>
+            <div class="hoten">
+                <input type="text" name="hoTen" placeholder="Họ tên">
+                <i class="fa-solid fa-signature"></i>
+            </div>
+            <div class="ngayThangNamSinh">
+                <select name="Ngay">
+                    <option value="ngay" selected>Ngày</option>
+                    <option value="Ngày 1">Ngày 1</option>
+                    <option value="Ngày 2">Ngày 2</option>
+                    <option value="Ngày 3">Ngày 3</option>
+                    <option value="Ngày 4">Ngày 4</option>
+                    <option value="Ngày 5">Ngày 5</option>
+                    <option value="Ngày 6">Ngày 6</option>
+                    <option value="Ngày 7">Ngày 7</option>
+                    <option value="Ngày 8">Ngày 8</option>
+                    <option value="Ngày 9">Ngày 9</option>
+                    <option value="Ngày 10">Ngày 10</option>
+                    <option value="Ngày 11">Ngày 11</option>
+                    <option value="Ngày 12">Ngày 12</option>
+                    <option value="Ngày 13">Ngày 13</option>
+                    <option value="Ngày 14">Ngày 14</option>
+                    <option value="Ngày 15">Ngày 15</option>
+                    <option value="Ngày 16">Ngày 16</option>
+                    <option value="Ngày 17">Ngày 17</option>
+                    <option value="Ngày 18">Ngày 18</option>
+                    <option value="Ngày 19">Ngày 19</option>
+                    <option value="Ngày 20">Ngày 20</option>
+                    <option value="Ngày 21">Ngày 21</option>
+                    <option value="Ngày 22">Ngày 22</option>
+                    <option value="Ngày 23">Ngày 23</option>
+                    <option value="Ngày 24">Ngày 24</option>
+                    <option value="Ngày 25">Ngày 25</option>
+                    <option value="Ngày 26">Ngày 26</option>
+                    <option value="Ngày 27">Ngày 27</option>
+                    <option value="Ngày 28">Ngày 28</option>
+                    <option value="Ngày 29">Ngày 29</option>
+                    <option value="Ngày 30">Ngày 30</option>
+                    <option value="Ngày 31">Ngày 31</option>
+                </select>
+                <select name="Thang">
+                    <option value="thang" selected>Tháng</option>
+                    <option value="Tháng 1">Tháng 1</option>
+                    <option value="Tháng 2">Tháng 2</option>
+                    <option value="Tháng 3">Tháng 3</option>
+                    <option value="Tháng 4">Tháng 4</option>
+                    <option value="Tháng 5">Tháng 5</option>
+                    <option value="Tháng 6">Tháng 6</option>
+                    <option value="Tháng 7">Tháng 7</option>
+                    <option value="Tháng 8">Tháng 8</option>
+                    <option value="Tháng 9">Tháng 9</option>
+                    <option value="Tháng 10">Tháng 10</option>
+                    <option value="Tháng 11">Tháng 11</option>
+                    <option value="Tháng 12">Tháng 12</option>
+                </select>
+                <input type="number" required min="1900" max="2030" name="nam" placeholder="Năm Sinh">
+                <i class="fa-solid fa-cake-candles"></i>
+            </div>
+            <div class="cccd">
+                <input type="text" name="cccd" placeholder="Số căn cước công dân">
+                <i class="fa-solid fa-passport"></i>
+            </div>
+            <div class="tel">
+                <input type="tel" name="tel" placeholder="Số điện thoại">
+                <i class="fa-solid fa-mobile"></i>
+            </div>
+            <div class="email">
+                <input type="email" name="email" placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="diaChi">
+                <input type="text" name="diaChi" placeholder="Địa chỉ">
+                <i class="fa-solid fa-house"></i>
+            </div>
+        </form>
+        <H2>THÔNG TIN TÀI KHOẢN</H2>
+        <form name="frmTaiKhoan">
+            <div class="tenDangNhap">
+                <input type="text" name="tenDangNhap" placeholder="Tên đăng nhập">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="matKhau">
+                <input type="password" name="matKhau" placeholder="Mật khẩu">
+                <i class="fa-solid fa-lock"></i>
+
+            </div>
+            <div class="nhapLaiMatKhau">
+                <input type="password" name="nhapLaiMatKhau" placeholder="Nhập lại mật khẩu">
+                <i class="fa-solid fa-unlock"></i>
+            </div>
+        </form>
+        <div class="button">
+            <input type="button" value="Đăng ký" onclick="kiemTra()">
+            <input type="button" value="Huỷ" onclick="huy()">
+        </div>
+    </div>
+</body>
+<div id="hienThongTin">
+</div>
+
+</html>
